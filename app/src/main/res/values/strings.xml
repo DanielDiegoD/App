@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App FINTECH</string>
+    <string name="hello_text">Bienvenido!</string>
+    <string name="accept_button">Ingresar</string>
+    <string name="button_clicked">Haz dado click al boton!</string>
+    <string name="add_text">Usuario</string>
+    <string name="add_password">Contraseña</string>
+</resources>
