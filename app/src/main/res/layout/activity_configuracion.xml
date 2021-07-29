@@ -29,7 +29,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/blue_light_sign"/>
 
     <Button
         android:id="@+id/button2"
@@ -40,7 +41,8 @@
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteX="156dp" />
+        tools:layout_editor_absoluteX="156dp"
+        android:backgroundTint="@color/blue_light_sign"/>
 
     <Button
         android:id="@+id/button3"
@@ -51,7 +53,8 @@
         app:layout_constraintTop_toBottomOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteX="159dp" />
+        tools:layout_editor_absoluteX="159dp"
+        android:backgroundTint="@color/blue_light_sign"/>
 
     <Button
         android:id="@+id/button4"
@@ -62,7 +65,8 @@
         app:layout_constraintTop_toBottomOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteX="166dp" />
+        tools:layout_editor_absoluteX="166dp"
+        android:backgroundTint="@color/blue_light_sign"/>
 
 
 
@@ -76,6 +80,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        android:textColor="@color/mexicanPink" />
+        android:textColor="@color/mexicanPink"
+        android:backgroundTint="@color/blue_light_sign"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
