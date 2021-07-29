@@ -5,4 +5,14 @@
     <string name="button_clicked">Haz dado click al boton!</string>
     <string name="add_text">Usuario</string>
     <string name="add_password">Contraseña</string>
+    <string name="button_Operaciones">Operaciones Bancarias</string>
+    <string name="button_Cuenta">Opciones Cuenta</string>
+    <string name="button_Configuracion">Configuracion</string>
+    <string name="button_Depositar">Depositar</string>
+    <string name="button_Retirar">Retirar</string>
+    <string name="button_ObtenerFondos">Obtener Fondos</string>
+    <string name="button_Transferir">Transferir</string>
+    <string name="text_OperacionBancaria">Espacio donde se planea demostrar la ejecucion del boton</string>
+    <string name="text_PromocionOperaciones">Espacio para mostrar informacion de las operaciones del Usuario</string>
+
 </resources>

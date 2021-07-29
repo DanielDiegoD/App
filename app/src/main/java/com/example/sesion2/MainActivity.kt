@@ -7,35 +7,53 @@ import android.view.View
 import android.widget.Button //importar librerias
 import android.widget.TextView
 import android.widget.EditText
+import android.widget.Toast
 import androidx.core.view.isVisible
+
+//Activity de la pantalla de de login
 
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var btnAccept :Button // lateinit hace que la variable se inicialize despues, se declara variable btnAccept de tipo button
-    private lateinit var text: TextView
+
+    // Variables de los layout del Activity
+    private lateinit var btnIngresar :Button
+    private lateinit var editUsuario: EditText
+    private lateinit var editContraseña: EditText
     private lateinit var register_text: TextView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btnAccept = findViewById(R.id.btnaccept) //R.id en recursos id
-        text = findViewById(R.id.text)
+        // Inicializacion de las Variables
+        btnIngresar = findViewById(R.id.btnIngresar)
+        editUsuario = findViewById(R.id.editUsuario)
+        editContraseña = findViewById(R.id.editPassword)
         register_text=findViewById(R.id.register)
 
-        /*btnAccept.setOnClickListener{// Listener espera que haya una accion sobre el boton, cuando sucede reacciona
-          //  text.text="Haz dado click al boton"
-              text.text = getString(R.string.button_clicked) // cambiar texto en text view
-              btnAccept.isEnabled =false
-              text.visibility = View.VISIBLE
-             //text.isVisible= false
+        btnIngresar.setOnClickListener{
 
-        }*/
+            if (editUsuario.text.toString().isEmpty() or editContraseña.text.toString().isEmpty()){
+                Toast.makeText(applicationContext,  "Ingresa tu Usuario y Contraseña", Toast.LENGTH_SHORT)
+                    .show()
+            }
+
+
+
+            else {
+                Toast.makeText(applicationContext,  "Iniciaste sesion Exitosamente", Toast.LENGTH_SHORT)
+                    .show()
+
+                var intent = Intent( this, PaginaPrincipal:: class.java).apply{}
+                startActivity(intent)
+            }
+
+        }
 
         register_text.setOnClickListener{
 
              register_text.highlightColor
-            // text.text = getString(R.string.button_clicked) // cambiar texto en text view
-            //text.visibility = View.VISIBLE
+
              val intent= Intent(this,Registro::class.java).apply{}
              startActivity(intent)
 

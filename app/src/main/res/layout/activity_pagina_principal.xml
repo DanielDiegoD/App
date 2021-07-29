@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaginaPrincipal"
+    android:background="@color/blue_background">
+
+    <ImageView
+        android:id ="@+id/Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Logo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="47dp"
+        android:text="Espacio para mostrar informacon del usuario" />
+
+    <Button
+        android:id="@+id/buttonOperaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"
+        android:text="@string/button_Operaciones"
+        android:backgroundTint="@color/blue_light_sign"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonOperaciones"
+        android:layout_marginTop="63dp"
+        android:text="@string/button_Cuenta"
+        android:backgroundTint="@color/blue_light_sign"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonConfiguracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCuenta"
+        android:layout_marginTop="60dp"
+        android:text="@string/button_Configuracion"
+        android:backgroundTint="@color/blue_light_sign"
+        android:textColor="@color/white"/>
+
+
+
+
+</RelativeLayout>

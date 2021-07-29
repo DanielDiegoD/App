@@ -26,7 +26,7 @@
         android:src="@drawable/ic_launcher_foreground" />
 
     <EditText
-        android:id= "@+id/editText"
+        android:id= "@+id/Registro_Usuario"
         android:hint="@string/add_text"
         android:textColorHint="@color/white"
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
 
         />
     <EditText
-        android:id= "@+id/clave"
+        android:id= "@+id/Registro_Clave"
         android:inputType= "number"
         android:hint="Clave bancaria"
         android:textColorHint="@color/white"
@@ -48,7 +48,7 @@
         android:textColor="@color/white"
         />
     <EditText
-        android:id= "@+id/password"
+        android:id= "@+id/Registro_Contraseña"
         android:inputType="textPassword"
         android:hint="Contraseña"
         android:textColorHint="@color/white"
@@ -60,7 +60,7 @@
         />
 
     <Button
-        android:id="@+id/btnaccept"
+        android:id="@+id/btnRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -68,9 +68,11 @@
         android:paddingHorizontal="16dp"
         android:paddingVertical="8dp"
         android:text="Registrarme"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        />
+
     <Button
-        android:id="@+id/btncancel"
+        android:id="@+id/btnCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
