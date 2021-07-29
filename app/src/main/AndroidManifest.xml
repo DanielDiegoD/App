@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sesion2">
-        <activity android:name=".OperacionesBancarias"></activity>
+        <activity android:name=".Configuracion"></activity>
+        <activity android:name=".OpcionesCuenta" />
+        <activity android:name=".OperacionesBancarias" />
         <activity android:name=".PaginaPrincipal" />
         <activity android:name=".Registro" />
         <activity android:name=".MainActivity">

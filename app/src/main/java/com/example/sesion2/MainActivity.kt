@@ -31,14 +31,14 @@ class MainActivity : AppCompatActivity() {
         editContraseña = findViewById(R.id.editPassword)
         register_text=findViewById(R.id.register)
 
+        // Funcion para ingresar a la aplicacion
         btnIngresar.setOnClickListener{
 
+            // If satement para validar los campos de inicio de sesion
             if (editUsuario.text.toString().isEmpty() or editContraseña.text.toString().isEmpty()){
                 Toast.makeText(applicationContext,  "Ingresa tu Usuario y Contraseña", Toast.LENGTH_SHORT)
                     .show()
             }
-
-
 
             else {
                 Toast.makeText(applicationContext,  "Iniciaste sesion Exitosamente", Toast.LENGTH_SHORT)
@@ -50,10 +50,9 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        // Funcion para ir al Activity registro
         register_text.setOnClickListener{
-
              register_text.highlightColor
-
              val intent= Intent(this,Registro::class.java).apply{}
              startActivity(intent)
 

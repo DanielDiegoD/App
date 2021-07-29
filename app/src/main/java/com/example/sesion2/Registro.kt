@@ -31,6 +31,7 @@ class Registro : AppCompatActivity() {
 
 
 
+        // Funcion que nos registra el usuario y nos regresa a la pantalla de inicio
         buttonRegistrar.setOnClickListener {
 
             // Validacion del registro
@@ -50,6 +51,7 @@ class Registro : AppCompatActivity() {
 
         }
 
+        // Funcion que cancela el registro y regresa al usuario a la pantalla de inicio
         buttonCancelar.setOnClickListener {
             Toast.makeText(applicationContext, "Has cancelado tu registro", Toast.LENGTH_SHORT)
                 .show()
