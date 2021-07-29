@@ -5,6 +5,7 @@
     <string name="button_clicked">Haz dado click al boton!</string>
     <string name="add_text">Usuario</string>
     <string name="add_password">Contraseña</string>
+<<<<<<< HEAD
     <string name="button_Operaciones">Operaciones Bancarias</string>
     <string name="button_Cuenta">Opciones Cuenta</string>
     <string name="button_Configuracion">Configuracion</string>
@@ -15,4 +16,16 @@
     <string name="text_OperacionBancaria">Espacio donde se planea demostrar la ejecucion del boton</string>
     <string name="text_PromocionOperaciones">Espacio para mostrar informacion de las operaciones del Usuario</string>
 
+=======
+    <string name="configuracion">Configuración</string>
+    <string name="accionescuenta">Acciones de cuenta</string>
+    <string name="verificarsesion">Verificar sesión</string>
+    <string name="cambiarnombre">Cambiar nombre</string>
+    <string name="cambiarapellido">Cambiar apellido</string>
+    <string name="obtenerinfo">Obtener información</string>
+    <string name="cerrarsesion">cerrar sesión</string>
+    <string name="conocetumembresia">Conoce tu membresía</string>
+    <string name="costosdemembresia">Costos de membresías</string>
+    <string name="suscribete">Suscribirse a membresía silver</string>
+>>>>>>> e060b096cb10e59cd05d2123a8509144570107b0
 </resources>
