@@ -10,7 +10,7 @@ Consideramos oportuno resaltar algunos detalles actuales de nuestra aplicación 
 
 - Al no tener base de datos cualquier información ingresada en usuario y contraseña da acceso a la app.
 - Al tocar cualquier botón, que despliegue información (TextView) para hacer uso de la demostración de lo que planeamos hacer cuando el botón ya cuente con la funcionalidad esperada.
-- No hay bóton para retroceder ya que en Android Existe la flecha para hacerlo por lo que lo consideramos redundante
+- No hay botón para retroceder ya que en Android Existe la flecha para hacerlo por lo que lo consideramos redundante
 - El diseño actual de todos los elementos, tanto sus colores, tamaño y posición no son los finales
 - No hay infomación de las activities por medio de datos ya que este se planea poner al momento de tener una pequeña base de datos. 
 
