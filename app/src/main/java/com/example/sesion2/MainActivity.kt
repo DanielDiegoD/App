@@ -3,13 +3,9 @@ package com.example.sesion2
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button //importar librerias
 import android.widget.TextView
-import android.widget.EditText
 import android.widget.Toast
 import com.google.android.material.textfield.TextInputEditText
-import androidx.core.view.isVisible
 import com.google.android.material.button.MaterialButton
 
 //Activity de la pantalla de de login
