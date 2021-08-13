@@ -4,8 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
 import android.widget.Toast
+import com.google.android.material.textfield.TextInputEditText
 
 // Activity para hacer el registro de usuario
 
@@ -14,9 +14,9 @@ class Registro : AppCompatActivity() {
     // Creacion de las vaiables del layout
     private lateinit var buttonRegistrar: Button
     private lateinit var buttonCancelar: Button
-    private lateinit var textUsuario: EditText
-    private lateinit var textClave: EditText
-    private lateinit var textContraseña: EditText
+    private lateinit var textUsuario: TextInputEditText
+    private lateinit var textClave: TextInputEditText
+    private lateinit var textContraseña: TextInputEditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,9 +46,6 @@ class Registro : AppCompatActivity() {
                 startActivity(intent)
 
             }
-
-
-
         }
 
         // Funcion que cancela el registro y regresa al usuario a la pantalla de inicio
