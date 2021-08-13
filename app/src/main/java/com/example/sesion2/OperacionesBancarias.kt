@@ -34,10 +34,10 @@ class OperacionesBancarias : AppCompatActivity() {
         buttonTransferir = findViewById(R.id.buttonTransferir)
 
         // Incializacion de los textos
-        textDepositar = findViewById(R.id.textDepositar)
-        textRetirar  = findViewById(R.id.textRetirar)
-        textObtenerFondos  =findViewById(R.id.textObtenerFondos)
-        textTransferir = findViewById(R.id.textTransferir)
+//        textDepositar = findViewById(R.id.textDepositar)
+//        textRetirar  = findViewById(R.id.textRetirar)
+//        textObtenerFondos  =findViewById(R.id.textObtenerFondos)
+//        textTransferir = findViewById(R.id.textTransferir)
 
         buttonDepositar.setOnClickListener {
             textDepositar.setVisibility(View.VISIBLE)

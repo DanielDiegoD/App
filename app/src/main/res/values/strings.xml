@@ -5,6 +5,7 @@
     <string name="button_clicked">Haz dado click al boton!</string>
     <string name="add_text">Usuario</string>
     <string name="add_password">Contraseña</string>
+    <string name="register">Registrarse</string>
 
     <string name="button_Operaciones">Operaciones Bancarias</string>
     <string name="button_Cuenta">Opciones de la Cuenta</string>

@@ -33,9 +33,9 @@ class OpcionesCuenta : AppCompatActivity() {
         buttonSuscripcion = findViewById(R.id.buttonSuscripcion)
 
         // Iniciliazcion de las textos
-        textMembresia = findViewById(R.id.textMembresia)
-        textMembresiaCosto = findViewById(R.id.textMembresiaCosto)
-        textSuscripcion = findViewById(R.id.textSuscripcion)
+//        textMembresia = findViewById(R.id.textMembresia)
+//        textMembresiaCosto = findViewById(R.id.textMembresiaCosto)
+//        textSuscripcion = findViewById(R.id.textSuscripcion)
 
         buttonMembresia.setOnClickListener {
             textMembresia.setVisibility(View.VISIBLE)
