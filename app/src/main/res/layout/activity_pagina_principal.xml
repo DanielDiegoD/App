@@ -8,53 +8,56 @@
     android:background="@color/blue_background">
 
     <ImageView
-        android:id ="@+id/Logo"
+        android:id="@+id/Logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_foreground"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher_foreground" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/Logo"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="47dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:text="Espacio para mostrar informacon del usuario" />
 
     <Button
         android:id="@+id/buttonOperaciones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_weight="1"
-        android:text="@string/button_Operaciones"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
         android:backgroundTint="@color/blue_light_sign"
-        android:textColor="@color/white"/>
+        android:text="@string/button_Operaciones"
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/buttonCuenta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/buttonOperaciones"
-        android:layout_marginTop="63dp"
-        android:text="@string/button_Cuenta"
+        android:layout_below="@+id/buttonOperaciones"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
         android:backgroundTint="@color/blue_light_sign"
-        android:textColor="@color/white"/>
+        android:text="@string/button_Cuenta"
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/buttonConfiguracion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/buttonCuenta"
-        android:layout_marginTop="60dp"
-        android:text="@string/button_Configuracion"
+        android:layout_below="@+id/buttonCuenta"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
         android:backgroundTint="@color/blue_light_sign"
-        android:textColor="@color/white"/>
-
-
-
+        android:text="@string/button_Configuracion"
+        android:textColor="@color/white" />
 
 </RelativeLayout>

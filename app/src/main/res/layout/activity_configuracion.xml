@@ -18,46 +18,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.104" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="@string/text_PromocionOperaciones"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.311" />
-
-
-
     <Button
         android:id="@+id/buttonInformacion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginBottom="356dp"
         android:layout_weight="1"
         android:backgroundTint="@color/blue_light_sign"
         android:text="@string/button_Informacion"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
-
-    <TextView
-        android:id="@+id/textInformacion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="@string/text_Membresia"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/buttonCambiarInformacion"
-        app:layout_constraintTop_toBottomOf="@+id/buttonInformacion"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/buttonCambiarInformacion"
@@ -65,23 +39,14 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginBottom="224dp"
+        android:layout_marginHorizontal="10dp"
         android:layout_weight="1"
         android:backgroundTint="@color/blue_light_sign"
         android:text="@string/button_CambiarInformacion"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
-
-
-    <TextView
-        android:id="@+id/textCambiarInformacion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/text_MembresiaCosto"
-        android:visibility="invisible"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCambiarInformacion"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInformacion" />
 
     <Button
         android:id="@+id/buttonCerrarSesion"
