@@ -8,7 +8,9 @@ import android.widget.Button //importar librerias
 import android.widget.TextView
 import android.widget.EditText
 import android.widget.Toast
+import com.google.android.material.textfield.TextInputEditText
 import androidx.core.view.isVisible
+import com.google.android.material.button.MaterialButton
 
 //Activity de la pantalla de de login
 
@@ -16,9 +18,9 @@ import androidx.core.view.isVisible
 class MainActivity : AppCompatActivity() {
 
     // Variables de los layout del Activity
-    private lateinit var btnIngresar :Button
-    private lateinit var editUsuario: EditText
-    private lateinit var editContraseña: EditText
+    private lateinit var btnIngresar : MaterialButton
+    private lateinit var editUsuario: TextInputEditText
+    private lateinit var editContraseña: TextInputEditText
     private lateinit var register_text: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {

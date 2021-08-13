@@ -31,8 +31,8 @@ class Configuracion : AppCompatActivity() {
         buttonCerrarSesion = findViewById(R.id.buttonCerrarSesion)
 
         // Inicializacion de los textView
-        textInformacion = findViewById(R.id.textInformacion)
-        textCambiarInformacion = findViewById(R.id.textCambiarInformacion)
+        //textInformacion = findViewById(R.id.textInformacion)
+        //textCambiarInformacion = findViewById(R.id.textCambiarInformacion)
 
         buttonInformacion.setOnClickListener {
             textInformacion.setVisibility(View.VISIBLE)
